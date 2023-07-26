@@ -1,42 +1,18 @@
 <!-- Azure Practice -->
+<!DOCTYPE html>
 <html>
-    <head>
-        <style>
-            body {
-                background-color: #121212;
-                color: white;
-                font-family: Arial, Helvetica, sans-serif;
-            }
-        
-            button {
-                background-color: #3f51b5;
-                border: none;
-                color: white;
-                padding: 15px 32px;
-                text-align: center;
-                text-decoration: none;
-                display: inline-block;
-                font-size: 16px;
-            }
-        
-                    button:hover {
-                        background-color: #ff9800;
-                    }
-                
-            </style>
-        </head>
-    <body>
 
-<h1>Welcome!</h1>
+<head>
+  <title>Working Hours</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Include your CSS file -->
+  <script src="WorkingHours.js"></script> <!-- Include your JavaScript file -->
+</head>
 
-<button id="hello">Hello World!</button>
+<body>
+  <div id="container">
+    <h1>Current Month's Working Hours in Latvia</h1>
+    <div id="working-hours"></div>
+  </div>
+</body>
 
-    <script>
-        var hello = document.getElementById("hello");
-        hello.addEventListener("click", function() {
-        alert("Welcome! Onur");
-    });
-    </script>
-
-    </body>
 </html>
